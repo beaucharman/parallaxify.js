@@ -1,0 +1,87 @@
+/**
+ * Main
+ * ------------------------------------------------------------------------
+ * main.css
+ * @version 2.1 | May 9th 2013
+ * @package Parallaxify
+ * @author  Beau Charman | @beaucharman | http://beaucharman.me
+ * @link
+ * @license MIT License
+ * ------------------------------------------------------------------------ */
+body {
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+[data-parallaxify] {
+  background-repeat : no-repeat;
+  background-position : 0 0;
+  -webkit-background-size : cover;
+     -moz-background-size : cover;
+       -o-background-size : cover;
+          background-size : cover;
+}
+
+.one {
+  background-image: url(image-1.jpg);
+  background-attachment : fixed;
+  min-height: 800px;
+  margin: 0 auto;
+}
+
+.two {
+  background-image: url(image-2.jpg);
+  background-attachment : fixed;
+  min-height: 800px;
+  z-index: 100;
+  box-shadow:0 0 32px 6px rgba(0,0,0,0.8);
+}
+
+.three {
+  background-image: url(image-3.jpg);
+  background-attachment : fixed;
+  min-height: 800px;
+  margin: 0 auto;
+}
+
+article {
+  font-size: 3em;
+  max-width: 10em;
+  margin: 0 auto;
+  padding: 0.4em;
+  background-color: #fff;
+  background-color: rgba(255,255,255,.6);
+  box-shadow:0 0 32px 12px rgba(0,0,0,0.4);
+  position: relative;
+  text-align: center;
+  top: 260px;
+}
+
+header {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  text-shadow: 0 1px 4px rgba(0,0,0,.5);
+  color: #aaa;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  color: #5283d2;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #fff;
+}
+
+h1 {
+  color: #ec643d;
+  font-family: 'Lobster', Georgia, Times, serif;
+  font-size: 4.5em;
+  line-height: 1.4;
+  margin: 0;
+}

@@ -2,7 +2,7 @@
 
 Easily add a subtle parallax effect to targeted elements (from here refered to as panels).
 
-The parallaxify.js file contains two tiny jQuery plugins, parallaxify() as described above, and fitVertically() to help... fit elements vertically.
+The **parallaxify.js** file contains two tiny jQuery plugins, **parallaxify()** as described above, and **fitVertically()** to help... fit elements vertically.
 
 ## Usage
 
@@ -12,7 +12,7 @@ coming soon...
 
 ### CSS
 
-Firstly, add the following styles to the panels (regardless of having the parallax effect or not)
+Firstly, add the following styles to the panels (regardless of having the parallax effect or not):
 
 ```css
 .panel {
@@ -66,3 +66,7 @@ Chain like a boss to attack everything.
 
 - jQuery x.x.x
 - Subtlety
+
+#### Questions
+
+https://github.com/beaucharman/parallaxify/issues

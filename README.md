@@ -9,9 +9,9 @@ Firstly, add the following styles to the panels (regardless of having the parall
   background-position : 0 0;
   background-repeat : no-repeat;
   -webkit-background-size : cover;
-  -moz-background-size : cover;
-  -o-background-size : cover;
-  background-size : cover;
+     -moz-background-size : cover;
+       -o-background-size : cover;
+          background-size : cover;
 }
 ```
 
@@ -22,4 +22,4 @@ Then, each parallax panel will have it's own background-image and a background-a
   background-attachment : fixed;
 ```
 
-Any panel that is not to be parallaxified can have a background-attachment of either fixed or scroll.
+Any panel that is not to be parallaxified can have a background-attachment of either `fixed` or `scroll`.

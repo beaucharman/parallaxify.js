@@ -9,8 +9,8 @@
  * @license MIT License
  * ------------------------------------------------------------------------ */
 body {
-  font-family: 'Cabin', Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px;
   line-height: 1.4;
 }
 
@@ -55,13 +55,14 @@ article {
   box-shadow:0 0 32px 12px rgba(0,0,0,0.4);
   position: relative;
   text-align: center;
-  top: 260px;
+  top: 280px;
 }
 
 header {
   position: fixed;
   top: 40px;
   left: 40px;
+  font-size: 1.2em;
   text-shadow: 0 1px 4px rgba(0,0,0,.5);
   color: #aaa;
 }
@@ -80,8 +81,8 @@ a:hover {
 
 h1 {
   color: #ec643d;
-  font-family: 'Lobster', Georgia, Times, serif;
-  font-size: 4.5em;
+  font-family: 'Dancing Script', Georgia, Times, serif;
+  font-size: 5em;
   line-height: 1.4;
   margin: 0;
 }

@@ -14,7 +14,7 @@ $.fn.extend({
     var coords;
     var $window   = $(window);
     var speedAttr = 'speed';
-    defaultSpeed  = defaultSpeed || 10;
+    defaultSpeed  = defaultSpeed || 20;
 
     return this.each(function(){
       /* assign the object as a new instance */

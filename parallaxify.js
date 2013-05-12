@@ -7,7 +7,7 @@
  * @param {integer} defaultSpeed | any number from 1 (hare) to 50 (turtle)
  * ------------------------------------------------------------------------ */
 $.fn.extend({
-  parallaxify : function(defaultSpeed){
+  parallaxify : function (defaultSpeed) {
 
     /* Setup */
     var yPos;
@@ -16,11 +16,12 @@ $.fn.extend({
     var speedAttr = 'speed';
     defaultSpeed  = defaultSpeed || 20;
 
-    return this.each(function(){
+    return this.each(function () {
       /* assign the object as a new instance */
       var $bg = $(this);
       var speed = $bg.data(speedAttr) || defaultSpeed;
-      $window.scroll(function() {
+
+      $window.scroll(function () {
         yPos = -(($window.scrollTop() - $bg.offset().top) / speed);
         coords = '0 ' + yPos + 'px';
         $bg.css({
@@ -41,8 +42,8 @@ $.fn.extend({
  * Change the target elements height to be that of the window's
  * ------------------------------------------------------------------------ */
 $.fn.extend({
-  fitVertically : function(){
-    return this.each(function(){
+  fitVertically : function () {
+    return this.each(function () {
       $(this).height($(window).height());
     });
   }

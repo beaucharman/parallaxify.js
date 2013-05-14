@@ -14,9 +14,11 @@
     }, options);
     var yPos, coords;
     var $window = $(window);
+
     return this.each(function () {
       var $bg = $(this);
       var speed = $bg.attr(settings.speedAttr) || settings.defaultSpeed;
+
       $window.scroll(function () {
         yPos = -(($window.scrollTop() - $bg.offset().top) / speed);
         coords = '0 ' + yPos + 'px';

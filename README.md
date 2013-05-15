@@ -1,6 +1,6 @@
 # Parallaxify
 
-Easily add a subtle parallax effect to targeted elements (from here refered to as panels).
+> Easily add a subtle parallax effect to targeted elements (from here refered to as panels).
 
 The **parallaxify.js** file contains two tiny jQuery plugins, **parallaxify()** as described above, and **fitVertically()** to help... fit elements vertically.
 

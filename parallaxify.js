@@ -7,6 +7,7 @@
  * @param   {integer} defaultSpeed | any number from 1 (hare) to 50 (turtle)
  * ------------------------------------------------------------------------ */
 ;(function ($) {
+  'use strict';
   $.fn.parallaxify = function (options) {
     var settings = $.extend({
       'defaultSpeed': 20,
@@ -40,6 +41,7 @@
  * Change the target elements height to be that of the window's
  * ------------------------------------------------------------------------ */
 ;(function ($) {
+  'use strict';
   $.fn.fitVertically = function () {
     return this.each(function () {
       $(this).height($(window).height());

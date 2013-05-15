@@ -5,7 +5,9 @@
  * @version 1.0 | May 8th 2013
  * @author  Beau Charman | @beaucharman | http://beaucharman.me
  * @link    https://github.com/beaucharman/parallaxify
- * @param   {integer} defaultSpeed | any number from 1 (hare) to 50 (turtle)
+ * @param   {object}
+ *            {integer} defaultSpeed | any number from 1 (hare) to 50 (turtle)
+ *            {string}  speedAttr
  * ------------------------------------------------------------------------ */
 ;(function ($) {
   'use strict';

@@ -1,6 +1,6 @@
 /**
  * Parallaxify
- * ------------------------------------------------------------------------
+ * ========================================================================
  * parallaxify()
  * @version 1.0 | May 8th 2013
  * @author  Beau Charman | @beaucharman | http://beaucharman.me
@@ -8,7 +8,7 @@
  * @param   {object}
  *            {integer} defaultSpeed | any number from 1 (hare) to 50 (turtle)
  *            {string}  speedAttr
- * ------------------------------------------------------------------------ */
+ * ======================================================================== */
 ;(function ($) {
   'use strict';
   $.fn.parallaxify = function (options) {
@@ -36,14 +36,14 @@
 
 /**
  * Fit Vertically
- * ------------------------------------------------------------------------
+ * ========================================================================
  * fitVertically()
  * @version 1.0 | May 8th 2013
  * @author  Beau Charman | @beaucharman | http://beaucharman.me
  * @link    https://github.com/beaucharman/parallaxify
  *
  * Change the target elements height to be that of the window's
- * ------------------------------------------------------------------------ */
+ * ======================================================================== */
 ;(function ($) {
   'use strict';
   $.fn.fitVertically = function () {

@@ -4,6 +4,8 @@
 
 The **parallaxify.js** file contains two tiny jQuery plugins, **parallaxify()** as described above, and **fitVertically()** to help... fit elements vertically.
 
+View a simple demo [here](http://www.beaucharman.me/parallaxify/)
+
 ## Usage
 
 ### HTML

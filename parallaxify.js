@@ -3,8 +3,9 @@
  * ========================================================================
  * parallaxify()
  * @version 1.0 | May 8th 2013
- * @author  Beau Charman | @beaucharman | http://beaucharman.me
+ * @author  Beau Charman | @beaucharman | http://www.beaucharman.me
  * @link    https://github.com/beaucharman/parallaxify
+ * @license MIT license
  * @param   {object}
  *            {integer} defaultSpeed | any number from 1 (hare) to 50 (turtle)
  *            {string}  speedAttr
@@ -39,7 +40,7 @@
  * ========================================================================
  * fitVertically()
  * @version 1.0 | May 8th 2013
- * @author  Beau Charman | @beaucharman | http://beaucharman.me
+ * @author  Beau Charman | @beaucharman | http://www.beaucharman.me
  * @link    https://github.com/beaucharman/parallaxify
  *
  * Change the target elements height to be that of the window's

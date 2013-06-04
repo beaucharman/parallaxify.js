@@ -10,11 +10,25 @@ View a simple demo [here](http://www.beaucharman.me/parallaxify/)
 
 ### HTML
 
-coming soon...
+Firstly, add the markup for your panels. This can be absolutely anything, but here is the example HTML we will use:
+
+```html
+  <section class="one panel" data-parallaxify data-speed="8">
+    <article>This is the first section&hellip; scrolling like a boss.</article>
+  </section>
+
+  <section class="two panel" data-parallaxify data-speed="30">
+    <article>I am the second, I am scrolling slightly slower.</article>
+  </section>
+
+  <section class="three panel">
+    <article>Third section here. No parallax for me today, thanks.</article>
+  </section>
+```
 
 ### CSS
 
-Firstly, add the following styles to the panels (regardless of having the parallax effect or not):
+Next, add the following styles to the panels (regardless of having the parallax effect or not):
 
 ```css
 .panel {

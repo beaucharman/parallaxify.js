@@ -43,18 +43,24 @@
  * Fit Vertically
  * ========================================================================
  * fitVertically()
- * @version 1.0 | May 8th 2013
+ * @version 1.1 | June 11th 2013
  * @author  Beau Charman | @beaucharman | http://www.beaucharman.me
  * @link    https://github.com/beaucharman/parallaxify
+ * @param   {object}
+ *    {integer} height | percentage eg 0.5
  *
  * Change the target elements height to be that of the window's
  * ======================================================================== */
 ;(function ($) {
   'use strict';
 
-  $.fn.fitVertically = function () {
+  $.fn.fitVertically = function (options) {
+    var settings = $.extend({
+        'height': 1
+    }, options);
+
     return this.each(function () {
-      $(this).height($(window).height());
+      $(this).height($(window).height() * settings.height);
     });
   };
 })(jQuery);

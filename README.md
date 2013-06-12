@@ -57,7 +57,7 @@ Furthermore, depending on the nature and vertical flow, it may not hurt to add s
 You can create sections that all fit vertically, then apply the parallax effect to the ones that are to be parallaxified.
 
 ```javascript
-;(function($) {
+;(function ($) {
 
   $('section.panel').fitVertically();
 
@@ -71,7 +71,7 @@ or...
 Chain like a boss to attack everything.
 
 ```javascript
-;(function($) {
+;(function ($) {
 
   $('[data-parallax]').fitVertically().parallax();
 

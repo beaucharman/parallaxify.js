@@ -1,7 +1,7 @@
 /**
- * Parallaxify
+ * parallaxify.js
  * ========================================================================
- * parallaxify()
+ * jQuery.parallaxify.js
  * @version 1.0 | May 8th 2013
  * @author  Beau Charman | @beaucharman | http://www.beaucharman.me
  * @link    https://github.com/beaucharman/parallaxify

@@ -2,9 +2,9 @@
 
 > Easily add a subtle parallax effect to targeted elements (from here refered to as panels).
 
-The **parallaxify.js** file contains two tiny jQuery plugins, **parallaxify()** as described above, and **fitVertically()** to help... fit elements vertically.
+The **jQuery.parallaxify.js** file contains two tiny jQuery plugins, **parallaxify()** as described above, and **fitVertically()** to help... fit elements vertically.
 
-View a simple demo [here](http://www.beaucharman.me/parallaxify./)
+View a simple demo [here](http://www.beaucharman.me/parallaxify.js/)
 
 ## Usage
 
@@ -85,4 +85,4 @@ Chain like a boss to attack everything.
 
 #### Questions
 
-https://github.com/beaucharman/parallaxify/issues
+https://github.com/beaucharman/parallaxify.js/issues

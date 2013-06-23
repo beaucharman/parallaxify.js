@@ -1,7 +1,7 @@
 /**
  * parallaxify.js
  * ========================================================================
- * jQuery.parallaxify.js
+ * jquery.parallaxify.js
  * @version 1.0 | May 8th 2013
  * @author  Beau Charman | @beaucharman | http://www.beaucharman.me
  * @link    https://github.com/beaucharman/parallaxify
@@ -47,7 +47,7 @@
  * @author  Beau Charman | @beaucharman | http://www.beaucharman.me
  * @link    https://github.com/beaucharman/parallaxify
  * @param   {object}
- *    {integer} height | percentage eg 0.5
+ *   {integer} height | percentage eg 0.5
  *
  * Change the target elements height to be that of the window's
  * ======================================================================== */

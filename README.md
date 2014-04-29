@@ -73,7 +73,7 @@ Chain like a boss to attack everything.
 ```javascript
 ;(function ($) {
 
-  $('[data-parallax]').fitVertically().parallax();
+  $('[data-parallax]').fitVertically().parallaxify();
 
 }(jQuery));
 ```
